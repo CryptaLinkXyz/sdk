@@ -1,0 +1,20 @@
+{
+  "name": "cryptalink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "relay": "ts-node relay-node/server.ts",
+    "client": "ts-node client/example.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "ws": "^8.16.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.0",
+    "@types/ws": "^8.5.8",
+    "@types/node": "^20.10.0"
+  }
+}
